@@ -12,4 +12,3 @@ try:
             print('Good bye')
 except Exception as ex:
     print(f'Error:', {ex})
-    
