@@ -1,14 +1,10 @@
 try:
+    list = []
     while True:
         num = int(input('enter number->'))
         if num != 7:
-            if num > 0:
-                print('Number is positive')
-            if num < 0:
-                print('Number is negative')
-            if num == 0:
-                print('Number is equal to zero')
+            list.append(num)
         else:
-            print('Good bye')
+            print(f'Summary: {sum(list)}\n Maximum number: {max(list)}\n Minimum number: {min(list)}\n Good bye.')
 except Exception as ex:
     print(f'Error:', {ex})
