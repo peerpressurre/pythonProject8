@@ -5,6 +5,7 @@ try:
         if num != 7:
             list.append(num)
         else:
-            print(f'Summary: {sum(list)}\n Maximum number: {max(list)}\n Minimum number: {min(list)}\n Good bye.')
+         print(f'Summary: {sum(list)}\n Maximum number: {max(list)}\n Minimum number: {min(list)}')
+         break
 except Exception as ex:
     print(f'Error:', {ex})
