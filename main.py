@@ -18,4 +18,4 @@ try:
     print(f'Odd numbers: {list_odds}\n Sum of odd: {sum(list_odds)}\n Avg of odd {sum(list_odds) / len(list_odds)}\n')
     print(f'Nine numbers: {list_nines}\n Sum of nine: {sum(list_nines)}\n Avg of nine {sum(list_nines) / len(list_nines)}\n')
 except Exception as ex:
-    print(f'Error: {ex} ')
+    print(f'Error: {ex} '
